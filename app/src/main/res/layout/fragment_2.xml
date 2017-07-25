@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#76FF03"
+    tools:context="com.example.a15056233.c347p10knowyourfacts.Frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+
+
+
+        <Button
+            android:id="@+id/buttonImageChanged"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="changes Image " />
+
+        <Button
+            android:id="@+id/buttonChangeColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="change color" />
+    </LinearLayout>
+
+</FrameLayout>
